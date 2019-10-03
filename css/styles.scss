@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  .header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    height: 150px;
+    .img {
+      margin: 28px 26px;
+    }
+    .menu {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      margin-left: 40%;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 27px;
+      .features {
+        margin-right: 40px;
+      }
+      .pricing {
+        margin-right: 40px;
+      }
+      .company {
+        margin-right: 40px;
+      }
+    }
+  }
+  .block1 {
+    width: 100%;
+    height: 659px;
+    display: flex;
+    .img1 {
+      z-index: 1;
+      display: flex;
+      margin-left: 50%;
+    }
+    .text-button {
+      z-index: 2;
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+}

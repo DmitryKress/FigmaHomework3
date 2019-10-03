@@ -1,0 +1,56 @@
+html {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  height: 150px;
+}
+.container .header .img {
+  margin: 28px 26px;
+}
+.container .header .menu {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-left: 40%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+}
+.container .header .menu .features {
+  margin-right: 40px;
+}
+.container .header .menu .pricing {
+  margin-right: 40px;
+}
+.container .header .menu .company {
+  margin-right: 40px;
+}
+.container .block1 {
+  width: 100%;
+  height: 659px;
+  display: flex;
+}
+.container .block1 .img1 {
+  z-index: 1;
+  display: flex;
+  margin-left: 50%;
+}
+.container .block1 .text-button {
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/*# sourceMappingURL=styles.css.map */
